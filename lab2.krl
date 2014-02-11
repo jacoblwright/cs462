@@ -11,7 +11,8 @@ ruleset lab2 {
     rule first_rule {
         select when pageview ".*" setting ()
         // Display notification that will not fade.
-        notify("First Notification changed", "CS 462") with sticky = true;
+        notify("First Notification", "CS 462") with sticky = true;
+        notify("Second Notification", "CS 462") with sticky = true;
     }
 }
 
