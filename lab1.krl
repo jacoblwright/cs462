@@ -1,5 +1,5 @@
 
-ruleset lab1 {
+ruleset b505193x1 {
     meta {
         name "notify example"
         author "Jacob Wright"
