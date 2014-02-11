@@ -11,7 +11,7 @@ ruleset lab1 {
     rule first_rule {
         select when pageview ".*" setting ()
         // Display notification that will not fade.
-        notify("Hello Ryan") with sticky = true;
+        notify("Hello Ryan", "CS 462 ta") with sticky = true;
        
     }
 }
