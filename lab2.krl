@@ -12,7 +12,6 @@ ruleset lab2 {
         select when pageview ".*" setting ()
         // Display notification that will not fade.
         notify("First Notification", "CS 462") with position = top-left;
-        notify("Second Notification", "CS 462") with position = bottom-right;
     }
 }
 
